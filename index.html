@@ -8,26 +8,27 @@
 </head>
 
 <body>
+    <div id="header"></div>
     <ul>
         <li><a href="https://about.google/intl/en/">About</a></li>
         <li><a href="https://store.google.com/">Store</a></li>
         <li style="float:right"><p>Sign in</p></li>
-        <li style="float:right"><a><img src="images/index.png" height="15px" width="15px"></a></li>
+        <li id="apps"style="float:right"><a><img src="images/index.png" height="17px" width="17px"></a></li>
         <li style="float:right"><a href="https://www.google.com/imghp?hl=en">Images</a></li>
         <li style="float:right"><a href="https://www.google.com/gmail/about/">Gmail</a></li>
-    </ul> 
+    </ul>
+    </div> 
 
-    <div class="centered">
-    <img src="images/googlelogo_color_272x92dp.png"><br><br>
+    <img id="logo" src="images/googlelogo_color_272x92dp.png">
     <form>
-        <input class="round" type="text" name="search"><br><br>
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
+        <input class="round" id="searchbar" type="text" name="search">
+        <div class="buttons">
+        <input id="google" type="submit" value="Google Search">
+        <input id="lucky" type="submit" value="I'm Feeling Lucky">
+        </div>
     </form>
-    <br><span style="color:#ff0000">Watch live!</span><span> The NBA Finals are on </span><a href="">YouTube TV</a>
-    </div>
 
-    <div class="footer">
+    <div id="footer">
     <ul>
         <li><a href="">Advertising</a></li>
         <li><a href="">Business</a></li>
